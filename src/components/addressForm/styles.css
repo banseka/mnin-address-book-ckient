@@ -28,6 +28,7 @@ input {
   box-shadow: 1px 2px rgba(131, 123, 123, 0.76);
   border-radius: 5px;
   font-size: 1.1rem;
+  padding: 3px;
 }
 
 .add-address-btn {
