@@ -1,0 +1,34 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.welcom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-add-address-btn {
+  background-color: rgb(62, 62, 238);
+  color: #fff;
+  padding: 1em;
+  border: none;
+  width: 13em;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-size: 1rem;
+  margin-top: 1.2rem;
+}
+.home-add-address-btn:hover {
+  background-color: #fff;
+  color: rgb(62, 62, 238);
+  box-shadow: 1px 1px rgb(62, 62, 238);
+}
+.address-list {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}

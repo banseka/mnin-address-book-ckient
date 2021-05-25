@@ -1,0 +1,50 @@
+.form-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.address-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid rgb(39, 37, 37);
+  padding: 1rem;
+  width: 40vw;
+  border-radius: 15px;
+}
+label {
+  font-size: 1.5rem;
+  color: rgb(75, 75, 230);
+  text-transform: capitalize;
+  margin-bottom: 2px;
+}
+label>span{
+    font-size: 1rem;
+}
+input {
+  margin-bottom: 0.5rem;
+  border: none;
+  box-shadow: 1px 2px rgba(131, 123, 123, 0.76);
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+.add-address-btn {
+  background-color: rgb(62, 62, 238);
+  color: #fff;
+  padding: 1em;
+  border: none;
+  width: 13em;
+  border-radius: 50px;
+  text-transform: capitalize;
+  font-size: 1rem;
+  margin-top: 1.2rem;
+  margin: auto 30%;
+}
+.add-address-btn:hover {
+  background-color: #fff;
+  color: rgb(62, 62, 238);
+  box-shadow: 1px 1px rgb(62, 62, 238);
+ 
+}

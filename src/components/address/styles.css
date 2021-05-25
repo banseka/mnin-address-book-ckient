@@ -1,0 +1,26 @@
+.address {
+  margin-left: 2em;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgb(76, 76, 211);
+  padding: 20px;
+  border-radius: 20px;
+  color: rgb(76, 76, 211);
+  width: 8rem;
+  height: 10rem;
+  text-overflow: ellipsis;
+  white-space: wrap;
+  overflow: hidden;
+}
+
+.address-name {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  text-decoration-style: none;
+}
+.detail-link {
+  text-decoration: none;
+}

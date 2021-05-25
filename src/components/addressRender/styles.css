@@ -1,0 +1,41 @@
+.address-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5em;
+    border-radius: 1em;
+    margin-top: 2em;
+    border: 1px solid black;
+}
+.address-detail>div{
+    align-items: flex-start;
+}
+h5{
+    margin-bottom: 15px;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.avatar{
+    font-size: 15rem;
+    color: rgb(10, 10, 100);
+}
+h5>span{
+    font-size: 2em;
+    text-transform: capitalize;
+}
+p{
+    margin-bottom: 0.8em;
+}
+p>span{
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-left: 20px;
+    color: rgb(10, 10, 100);
+}
+.phone, .email, .facebook, .skype, .linkedin{
+    font-size: 2em;
+    color: rgb(62, 62, 238);
+}
